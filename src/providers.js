@@ -1,17 +1,17 @@
-import React from "react";
-import App from "./App";
+import React from 'react';
+import GithubProvider from './providers/github-provider';
 import { ResetCSS } from "./global/resetCSS";
-import GithubProvider from "./providers/github-provider";
+import App from './App';
 
-const Providers = () => {
+function Providers() {
   return (
     <main>
-      <GithubProvider>
-        <ResetCSS />
-        <App />
-      </GithubProvider>
+        <GithubProvider>
+            <ResetCSS />
+            <App />
+        </GithubProvider>
     </main>
-  );
-};
+  )
+}
 
 export default Providers;

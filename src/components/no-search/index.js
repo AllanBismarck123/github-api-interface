@@ -1,12 +1,12 @@
-import React from "react";
-import * as S from "./styled";
+import React from 'react'
+import * as S from "./styled"
 
-const NoSearch = () => {
+function NoSearch() {
   return (
     <S.Wrapper>
-      <h1>Nenhum usuario pesquisado</h1>
+        <h1>Nenhum usuário pesquisado</h1>
     </S.Wrapper>
-  );
-};
+  )
+}
 
-export default NoSearch;
+export default NoSearch
